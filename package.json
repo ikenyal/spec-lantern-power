@@ -1,0 +1,21 @@
+{
+  "name": "spec-lantern-power",
+  "version": "0.1.0",
+  "description": "spec-lantern Kiro Power — revive vibe-coded TypeScript/React apps by executing every claimed behavior instead of trusting comments.",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "spec-lantern-power": "./dist/server.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "files": [
+    "dist",
+    "steering",
+    "POWER.md",
+    "mcp.json",
+    "README.md",
+    "LICENSE"
+  ]
+}

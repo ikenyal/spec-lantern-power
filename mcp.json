@@ -1,0 +1,21 @@
+{
+  "mcpServers": {
+    "spec-lantern": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "github:ikenyal/spec-lantern-power#v0.1.0"
+      ],
+      "env": {
+        "PATH": "/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin"
+      },
+      "disabled": false,
+      "autoApprove": [
+        "lock_prediction",
+        "supersede_prediction_lock",
+        "execute_properties",
+        "replay_counterexample"
+      ]
+    }
+  }
+}
